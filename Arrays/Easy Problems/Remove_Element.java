@@ -27,3 +27,14 @@ class Solution {
 // i=1: nums[1] = 2 → not val → put it at nums[0]. Now nums = [2, 2, 2, 3], k=1.
 // i=2: nums[2] = 2 → not val → put it at nums[1]. Now nums = [2, 2, 2, 3], k=2.
 // i=3: nums[3] = 3 → equals val → skip.
+
+
+// 🟢 Logic of Remove Element:
+
+// We want to remove all numbers equal to val.
+// Instead of actually deleting, we move all the good numbers (not equal to val) to the front of the array.
+// We keep a counter k → this tells how many good numbers we have placed at the front.
+
+// At the end:
+// The first k numbers of the array are valid (not equal to val).
+// The rest of the array doesn’t matter.
