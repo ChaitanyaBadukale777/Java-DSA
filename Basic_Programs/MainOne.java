@@ -11,3 +11,5 @@ public class MainOne {
         Car c1 = new Car(); //Automatically calls the constructor
     }
 }
+
+// Output: Car is created!
