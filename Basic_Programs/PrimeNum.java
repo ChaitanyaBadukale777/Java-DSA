@@ -1,4 +1,4 @@
-public class PrimeCheck {
+public class PrimeNum {
     public static boolean isPrime(int n) {
         if (n <= 1) return false;   
         for (int i = 2; i <= n / 2; i++) { 
