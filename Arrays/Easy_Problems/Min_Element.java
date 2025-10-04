@@ -1,4 +1,4 @@
-class Main {
+class Min_Element {
     public static void main(String args[])
     {
         int a[] = {23, 19, 44, 10, 12, 25, 30, 49, 17, 22};
