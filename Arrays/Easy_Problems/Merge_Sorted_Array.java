@@ -20,3 +20,6 @@ public void merge(int[] nums1, int m, int[] nums2, int n) {
     while (q < n) nums1[k++] = nums2[q++];
 }
 }
+
+// Time Complexity: O(m + n)
+// Space Complexity: O(m)
