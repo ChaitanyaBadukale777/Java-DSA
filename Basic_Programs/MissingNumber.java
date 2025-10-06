@@ -13,3 +13,4 @@ class MissingNumber {
         System.out.println("Missing number is: " + sum);
     }
 }
+// Output: Missing number is: 23
