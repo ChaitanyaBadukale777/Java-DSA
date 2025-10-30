@@ -1,7 +1,6 @@
 Method Overloading (Compile-time Polymorphism)
 
 Definition:
-When two or more methods in the same class have the same name but different parameters 
-(different type, number, or order), it’s called method overloading.
+When two or more methods in the same class have the same name but different parameters (different type, number, or order), it’s called method overloading.
 
 It is resolved at compile-time.
