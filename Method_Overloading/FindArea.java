@@ -18,3 +18,8 @@ class FindArea {
         System.out.println("Circle: " + obj.area(7));
     }
 }
+
+// Output : 
+// Square: 25.0
+// Rectangle: 50.0
+// Circle: 153.93804
