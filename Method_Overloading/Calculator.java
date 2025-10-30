@@ -21,3 +21,8 @@ class Calculator{
         System.out.println(c.add(3.6, 7.4));
     }
 }
+
+// Output
+// 15
+// 30
+// 11.0
