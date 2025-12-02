@@ -1,6 +1,6 @@
 import java.util.LinkedList;
 
-public class Geeks {
+public class LinkedListExample {
     public static void main(String args[]){
         LinkedList<String> l = new LinkedList<>();
         
