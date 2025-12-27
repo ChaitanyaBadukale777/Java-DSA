@@ -12,3 +12,6 @@ public class RemoveDuplicateElement {
         System.out.println("Duplicate Elements: " + dup);
     }
 }
+
+// Output:
+// Duplicate Elements: [3]

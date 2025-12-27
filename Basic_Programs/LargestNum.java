@@ -10,3 +10,6 @@ public class LargestNum {
         System.out.println("Largest Number: " + max);
     }
 }
+
+// Output:
+// Largest Number: 65
