@@ -13,3 +13,5 @@ public class ReverseNumber {
     }
 }
 
+// Output:
+// Reversed Number: 54321
