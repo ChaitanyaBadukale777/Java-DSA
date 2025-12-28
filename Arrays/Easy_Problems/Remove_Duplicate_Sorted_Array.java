@@ -2,7 +2,7 @@
 
 // Approach: Two Pointers
 
-class Solution {
+class Remove_Duplicate_Sorted_Array {
     public int removeDuplicates(int[] nums) {
         if(nums == null) 
         return 0;

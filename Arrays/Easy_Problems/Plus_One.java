@@ -1,7 +1,7 @@
 // Problem Number 66: Plus One
 // Approach: Simple Iteration from the end 
 
-class Solution {
+class Plus_One {
     public int searchInsert(int[] nums, int target) {
         for(int i = 0; i < nums.length; i++){
             if(nums[i] >= target) {
