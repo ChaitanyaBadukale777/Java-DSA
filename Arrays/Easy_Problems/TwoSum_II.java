@@ -20,5 +20,25 @@ public class TwoSum_II{
     }
 }
 
+
+// Approach 
+
+// Initialize the sorted array
+
+// Set the target sum
+
+// Use two pointers (left at start, right at end)
+
+// Calculate sum of left and right elements
+
+// If sum equals target → pair found
+
+// If sum is less than target → move left pointer
+
+// If sum is greater than target → move right pointer
+
+// Continue until pointers meet
+
+
 // Output:
 // Indexes: 2, 4
