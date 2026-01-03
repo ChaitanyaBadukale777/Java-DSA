@@ -1,8 +1,8 @@
-class Car {
+class Car1 {
     String brand;
     int year;
 
-    Car(String b, int y) {
+    Car1(String b, int y) {
         brand = b;
         year = y;
     }
@@ -14,7 +14,7 @@ class Car {
 
 public class MainTwo {
     public static void main(String [] args) {
-        Car c1 = new Car("Tesla", 2025);
+        Car1 c1 = new Car1("Tesla", 2025);
         c1.display();
     }
 }
