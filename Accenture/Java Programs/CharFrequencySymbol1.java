@@ -20,3 +20,26 @@ public class CharFrequencySymbol1 {
         return "!@#$%".charAt(n - 1) + "";
     }
 }
+
+
+// Rule
+
+// Input
+// aaaccbbb
+
+// Count frequency of each character in order of appearance
+
+// Replace frequency with symbols:
+
+// 1 → !
+
+// 2 → @
+
+// 3 → #
+
+// 4 → $
+
+// 5 → %
+
+// Output only character + symbol
+// a#c#b#
