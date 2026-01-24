@@ -1,18 +1,33 @@
 // Problem Number 27: Remove Element
 // Approach: Two Pointers
 
-class RemoveElementSolution {
-    public int removeElement(int[] nums, int val) {
-        int k = 0;
-        for(int i = 0; i < nums.length; i++) {
-            if(nums[i] != val) {
-                nums[k] = nums[i];
-                k++;
+import java.util.*;
+
+class RemoveElement {
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 3, 4, 3, 5};
+        int val = 3;
+
+        int index = 0;
+
+        // Move required elements to the front
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] != val) {
+                arr[index++] = arr[i];
             }
         }
-        return k;
+
+        // Create final array of correct size
+        int[] result = new int[index];
+        for (int i = 0; i < index; i++) {
+            result[i] = arr[i];
+        }
+
+        // Print final array
+        System.out.println(Arrays.toString(result));
     }
 }
+
 
 // Time Complexity: O(n) - We traverse the array once.
 // Space Complexity: O(1) - We use a constant amount of extra space.
