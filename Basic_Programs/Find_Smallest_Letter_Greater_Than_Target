@@ -1,0 +1,20 @@
+class Solution {
+    public static char nextGreatestLetter(String s, char target) {
+        for (int i = 0; i < s.length(); i++) {
+            if (s.charAt(i) > target) {
+                return s.charAt(i);
+            }
+        }
+        return s.charAt(0);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        String s = "cfj";
+        char target = 'a';
+
+        char result = Solution.nextGreatestLetter(s, target);
+        System.out.println(result);
+    }
+}
