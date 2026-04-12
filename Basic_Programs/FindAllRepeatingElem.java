@@ -19,3 +19,6 @@ public class FindAllRepeatingElem {
         }
     }
 }
+
+
+// O/P : 1 2
