@@ -1,5 +1,5 @@
 public class MaxConsecutiveOnes {
-    public static int maxConsecutiveZeros(int[] arr) {
+    public static int maxConsecutiveOnes(int[] arr) {
         int max = 0, count = 0;
 
         for (int num : arr) {
