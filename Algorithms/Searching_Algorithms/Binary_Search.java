@@ -23,3 +23,21 @@ class Binary_Search {
         System.out.println("Not Found");
     }
 }
+
+
+// ⚡ Logic in 4 simple points
+// Start with two pointers → left (start) and right (end)
+// Find middle → mid = (left + right) / 2
+// Compare:
+// if target == mid → found
+// if target > mid → search right
+// else → search left
+// Repeat until found
+
+
+// Line-by-line simple explanation
+// left = 0, right = n-1 → full array
+// mid → center index
+// arr[mid] == target → return index
+// arr[mid] < target → ignore left half
+// arr[mid] > target → ignore right half
