@@ -18,3 +18,13 @@ class Bubble_Sort {
         }
     }
 }
+
+
+// ⚡ Time Complexity
+// Best: O(n)
+// Worst: O(n²)
+// 🎯 Interview Explanation (3 lines)
+
+// Bubble sort repeatedly swaps adjacent elements if they are in the wrong order. 
+// An optimization is added using a swapped flag to stop early if the array is already sorted.
+// It is simple but inefficient for large datasets.
